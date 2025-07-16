@@ -54,7 +54,8 @@
                 "XR_HTC_hand_interaction",
                 "XR_HTCX_vive_tracker_interaction",
                 "XR_ML_ml2_controller_interaction",
-                "XR_MSFT_hand_interaction"
+                "XR_MSFT_hand_interaction",
+                "XR_MNDX_egl_enable"
             ]
         },
         {
