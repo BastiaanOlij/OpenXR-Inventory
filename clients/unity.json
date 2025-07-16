@@ -12,7 +12,6 @@
         {
             "name": "OpenXR Plug-in",
             "abbreviation": "OpenXR Plug-in",
-            "color": "white",
             "extensions": [
                 "XR_KHR_android_create_instance",
                 "XR_KHR_android_surface_swapchain",
@@ -57,7 +56,6 @@
         {
             "name": "XR Composition Layers",
             "abbreviation": "Comp Layers",
-            "color": "white",
             "extensions": [
                 "XR_KHR_composition_layer_color_scale_bias",
                 "XR_KHR_composition_layer_cube",
@@ -69,7 +67,6 @@
         {
             "name": "Unity OpenXR: Meta",
             "abbreviation": "Meta",
-            "color": "white",
             "extensions": [
                 "XR_FB_display_refresh_rate",
                 "XR_FB_passthrough",
@@ -87,7 +84,6 @@
         {
             "name": "Unity OpenXR: Android XR",
             "abbreviation": "Android XR",
-            "color": "white",
             "extensions": [
                 "XR_FB_display_refresh_rate"
             ]
@@ -95,7 +91,6 @@
         {
             "name": "XR Hands",
             "abbreviation": "Hands",
-            "color": "white",
             "extensions": [
                 "XR_EXT_hand_tracking",
                 "XR_FB_hand_tracking_aim"
