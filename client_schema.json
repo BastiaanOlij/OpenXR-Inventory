@@ -103,6 +103,10 @@
                     "title": "Abbreviation shown in matrix",
                     "type": "string"
                 },
+                "notes": {
+                    "title": "Additional information about this component",
+                    "type": "string"
+                },
                 "extensions": {
                     "title": "Supported extensions",
                     "description": "A list of all supported extensions in this client, on this platform. Details or caveats may be included in 'notes'.",

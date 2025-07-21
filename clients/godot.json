@@ -62,6 +62,7 @@
         {
             "name": "Godot Vendors plugin",
             "abbreviation": "Vendors",
+            "notes": "Optional plugin exposing vendor extensions and additional export configurations.",
             "extensions": [
                 "XR_FB_body_tracking",
                 "XR_FB_color_space",

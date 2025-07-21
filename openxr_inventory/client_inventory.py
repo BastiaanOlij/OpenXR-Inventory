@@ -23,6 +23,9 @@ class ComponentEntry:
     abbreviation: str
     """The abbreviation to use in the client matrix"""
 
+    notes: str
+    """Optional additional information about this component"""
+
     extensions: List[ExtensionEntry]
     """The supported extensions"""
 
@@ -33,6 +36,7 @@ class ComponentEntry:
             stub=client_stub + '_' + d["abbreviation"],
             name=d["name"],
             abbreviation=d["abbreviation"],
+            notes=d.get("notes"),
             extensions=exts
         )
 
