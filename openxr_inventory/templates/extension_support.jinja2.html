@@ -267,7 +267,7 @@ th.rotate > div {
                 <li>Notes: {{ client.notes }}</li>
                 {% endif %}
                 {% for component in client.components %}
-                <li>Component: {{ component.name }}<br>Extensions:
+                <li id="{{ component.stub  }}">Component: {{ component.name }}<br>Extensions:
                     <ul>
                         {% for extension in component.extensions %}
                         <li><a href="#{{extension.name}}">{{extension.name}}</a> {% if extension.notes %} - {{ extension.notes }} {% endif %} </li>
@@ -313,7 +313,7 @@ th.rotate > div {
                         {% if components|length > 0 %}
                         <td class="text-center bg-success">
                             {% for component in components %}
-                            <span><abbr title="{{component.name}}">{{ component.abbreviation }}</abbr></span>
+                            <span><a href="#{{ component.stub }}"><abbr title="{{component.name}}">{{ component.abbreviation }}</abbr></a></span>
                             {% if not loop.last %}
                             <br>
                             {% endif %}
