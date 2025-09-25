@@ -50,6 +50,15 @@
                 "XR_MSFT_unbounded_reference_space",
                 "XR_OCULUS_audio_device_guid"
             ]
+        },
+        {
+            "name": "StereoKit Tools",
+            "abbreviation": "Tools",
+            "extensions": [
+                "XR_KHR_android_surface_swapchain",
+                "XR_FB_display_refresh_rate",
+                "XR_FB_passthrough"
+            ]
         }
     ],
     "form_factors": [
