@@ -59,6 +59,13 @@
                 "XR_FB_display_refresh_rate",
                 "XR_FB_passthrough"
             ]
+        },
+        {
+            "name": "StereoKit Holographic Remoting",
+            "abbreviation": "Remoting",
+            "extensions": [
+                "XR_MSFT_holographic_remoting"
+            ]
         }
     ],
     "form_factors": [
